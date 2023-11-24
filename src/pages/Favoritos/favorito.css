@@ -1,0 +1,43 @@
+.meus-filmes {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 25px 50px 50px;
+}
+.meus-filmes h1 {
+    margin-bottom: 14px;
+}
+.meus-filmes span{
+    font-size: 19px;
+    font-weight: 800;
+}
+.meus-filmes ul {
+    width: 720px;
+}
+.meus-filmes img {
+    max-width: 140px;
+    max-height: 140px;
+    object-fit: contain;
+    display: flexbox;
+    align-items: center;
+}
+
+.meus-filmes ul li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+}
+.meus-filmes div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.meus-filmes div a {
+    text-decoration: none;
+    color: #116feb;
+    margin-right: 14px;
+    font-size: 20px;
+}

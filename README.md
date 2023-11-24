@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# MarteFlix
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bem-vindo ao MarteFlix, o seu portal interplanetário para explorar e descobrir filmes incríveis! Este projeto React é alimentado pela API da The Movie Database (TMDb) e oferece uma experiência cinematográfica única.
 
-## Available Scripts
+## Como Começar
 
-In the project directory, you can run:
+Antes de começar, certifique-se de ter o [Node.js](https://nodejs.org/) instalado em sua máquina. Em seguida, siga os passos abaixo:
 
-### `npm start`
+1. Clone este repositório:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+   ```bash
+   git clone https://github.com/seu-usuario/marteflix.git
+   ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. Navegue até o diretório do projeto:
 
-### `npm test`
+   ```bash
+   cd marteflix
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Instale as dependências:
 
-### `npm run build`
+   ```bash
+   npm install
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Crie um arquivo `.env` na raiz do projeto e adicione a sua chave de API TMDb:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```
+   REACT_APP_TMDB_API_KEY=SuaChaveDaAPI
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   Você pode obter uma chave gratuita em [https://www.themoviedb.org/settings/api](https://www.themoviedb.org/settings/api).
 
-### `npm run eject`
+5. Inicie o aplicativo:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   npm start
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Agora, você pode acessar o MarteFlix em [http://localhost:3000](http://localhost:3000).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Recursos
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Catálogo de Filmes
 
-## Learn More
+Explore uma ampla variedade de filmes com detalhes interessantes, incluindo título, sinopse, classificação, e muito mais.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Favoritos
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Marque seus filmes favoritos para acessá-los facilmente mais tarde. Os filmes favoritos são armazenados localmente no navegador.
 
-### Code Splitting
+### Remover dos Favoritos
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Caso mude de ideia, você pode remover filmes da lista de favoritos com apenas um clique.
 
-### Analyzing the Bundle Size
+## Tecnologias Utilizadas
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- React
+- React Router
+- Axios (para fazer requisições à API TMDb)
+- Local Storage (para armazenar favoritos localmente)
 
-### Making a Progressive Web App
+## Contribuindo
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Se você encontrar problemas ou tiver sugestões de melhorias, sinta-se à vontade para abrir uma [issue](https://github.com/seu-usuario/marteflix/issues) ou enviar um [pull request](https://github.com/seu-usuario/marteflix/pulls).
 
-### Advanced Configuration
+## Print screens
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![MarteFlix](/public/Captura%20de%20tela%20de%202023-11-24%2010-13-08.png)
+![MarteFlix](/public/Captura%20de%20tela%20de%202023-11-24%2010-13-34.png)
+![MarteFlix](/public/Captura%20de%20tela%20de%202023-11-24%2010-13-58.png)
+![MarteFlix](/public/Captura%20de%20tela%20de%202023-11-24%2010-14-03.png)
+![MarteFlix](/public/Captura%20de%20tela%20de%202023-11-24%2010-14-13.png)
+![MarteFlix](/public/Captura%20de%20tela%20de%202023-11-24%2010-14-19.png)
+![MarteFlix](/public/Captura%20de%20tela%20de%202023-11-24%2010-14-39.png)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Divirta-se explorando o MarteFlix! 🚀🎬
